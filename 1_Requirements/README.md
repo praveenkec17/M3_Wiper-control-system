@@ -24,7 +24,7 @@ Using the high-performance STM32F407 microcontrollers' capabilities, the STM32F4
 Assume that the microcontroller is the car. When you click the button, the first led (red) illuminates, the wiper activates, and the second led (blue) illuminates at the right rate. If the button is pressed again, the third led (green) will illuminate, and the wiper speed will be increased, in contrast to the previous one. The fourth press will turn on the fourth led (orange) and increase the wiper speed in the same manner as the previous one. The microcontroller (vehicle) is turned off after the fifth click.
 
 ## Working
-
+ 
 The working of the wiper is based on the conversion of the wiper
 motors linear motion into linear back and forth movement of the
 wiper blades. The wiper combines two mechanical technologies
