@@ -6,6 +6,23 @@ window and the other on each headlight. The wiper parts visible from outside the
 arm holding the blade, a spring linkage, and parts of the wiper pivots. The wiper itself has about six parts called
 pressure points or claws that are small arms under the wiper
 
+
+## SOFTWARE REQUIREMENTS
+
+STM32 CUBE IDE
+
+## COMPONENTS
+
+STM32F4O7VG MICROCONTROLLER BOARD
+
+## Description
+
+Using the high-performance STM32F407 microcontrollers' capabilities, the STM32F407 Kit makes it simple for customers to build audio-based applications. A digital microphone, an audio DAC with integrated class D speaker driver, LEDs, pushbuttons, and a USB OTG micro-AB connector are all included. Ethernet connectivity, an LCD display, and other features have been added to the STM32F4 DISCOVERY kit. The STM32F405xx and STM32F407xx families are powered by the Arm® Cortex®-M4 32-bit RISC processor, which runs at up to 168 MHz.
+
+## Working principle 
+
+Assume that the microcontroller is the car. When you click the button, the first led (red) illuminates, the wiper activates, and the second led (blue) illuminates at the right rate. If the button is pressed again, the third led (green) will illuminate, and the wiper speed will be increased, in contrast to the previous one. The fourth press will turn on the fourth led (orange) and increase the wiper speed in the same manner as the previous one. The microcontroller (vehicle) is turned off after the fifth click.
+
 ## Working
 
 The working of the wiper is based on the conversion of the wiper
